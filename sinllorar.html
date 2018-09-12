@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="dale.js"></script>
+    <style type="text/css">
+        table {
+            border: 1px solid gray;
+        }
+
+        tr {
+            border: 1px solid gray;
+        }
+
+        td {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body ng-app="sinllorar">
+    <div ng-controller="mainController">
+        <div>
+            Iterations: <input type="number" name="" id="" ng-model="shuffle">
+        </div>
+        <div>
+            <input type="button" ng-click="roundFour()" value="4">
+        </div>
+        <div>
+            <table>
+                <tbody>
+                    <tr ng-repeat="k in a">
+                        <td>{{k.chairo}}</td>
+                        <td>{{k.equipo}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <div>
+                <input type="button" ng-click="roundThree()" value="3">
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr ng-repeat="k in b">
+                            <td>{{k.chairo}}</td>
+                            <td>{{k.equipo}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="button" ng-click="roundTwo()" value="2">
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr ng-repeat="k in c">
+                            <td>{{k.chairo}}</td>
+                            <td>{{k.equipo}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="button" ng-click="roundOne()" value="1">
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr ng-repeat="k in d">
+                            <td>{{k.chairo}}</td>
+                            <td>{{k.equipo}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
