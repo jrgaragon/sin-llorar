@@ -1,6 +1,6 @@
 angular.module('sinllorar', []).controller('mainController', function ($scope) {
     var self = this;
-    self.p = ['Jorge', 'Fraga', 'Edgar', 'Eduardo', 'Hector', 'Cau', 'Julio', 'Emanuel'];
+    self.p = ['Jorge', 'Fraga', 'Edgar', 'Eduardo', 'Saurio', 'Cau', 'Julio', 'Emmanuel'];
     self.e = [
         ['Rusia', 'Arabia Saudita', 'Egipto', 'Uruguay'],
         ['Portual', 'Espana', 'Marruecos', 'Iran'],
