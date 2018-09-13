@@ -3,7 +3,7 @@ angular.module('sinllorar', []).controller('mainController', function ($scope) {
     self.p = ['Jorge', 'Fraga', 'Edgar', 'Eduardo', 'Saurio', 'Cau', 'Julio', 'Emmanuel'];
     self.e = [
         ['Rusia', 'Arabia Saudita', 'Egipto', 'Uruguay'],
-        ['Portual', 'Espana', 'Marruecos', 'Iran'],
+        ['Portugal', 'Espana', 'Marruecos', 'Iran'],
         ['Francia', 'Australia', 'Peru', 'Dinamarca'],
         ['Argentina', 'Islandia', 'Croacia', 'Nigeria'],
         ['Brasil', 'Suiza', 'Costa Rica', 'Serbia'],
