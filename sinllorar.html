@@ -3,30 +3,17 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <script src="dale.js"></script>
-    <style type="text/css">
-        table {
-            border: 1px solid gray;
-        }
-
-        tr {
-            border: 1px solid gray;
-        }
-
-        td {
-            border: 1px solid gray;
-        }
-    </style>
+    <script src="dale.js"></script>    
 </head>
-
 <body ng-app="sinllorar">
     <div ng-controller="mainController">
         <div>
             Iterations: <input type="number" name="" id="" ng-model="shuffle">
         </div>
         <div>
-            <input class="button" type="button" ng-click="roundFour()" value="4">
+            <input class="button button2" type="button" ng-click="roundFour()" value="4">
         </div>
+        <br>
         <div>
             <table>
                 <tbody>
@@ -39,8 +26,9 @@
         </div>
         <div>
             <div>
-                <input class="button" type="button" ng-click="roundThree()" value="3">
+                <input class="button button2" type="button" ng-click="roundThree()" value="3">
             </div>
+            <br>
             <div>
                 <table>
                     <tbody>
@@ -54,8 +42,9 @@
         </div>
         <div>
             <div>
-                <input class="button" type="button" ng-click="roundTwo()" value="2">
+                <input class="button button3" type="button" ng-click="roundTwo()" value="2">
             </div>
+            <br>
             <div>
                 <table>
                     <tbody>
@@ -69,8 +58,9 @@
         </div>
         <div>
             <div>
-                <input class="button" type="button" ng-click="roundOne()" value="1">
+                <input class="button button3" type="button" ng-click="roundOne()" value="1">
             </div>
+            <br>
             <div>
                 <table>
                     <tbody>
